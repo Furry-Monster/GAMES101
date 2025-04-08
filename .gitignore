@@ -1,0 +1,53 @@
+# building
+build/
+bin/
+obj/
+*.o
+*.exe
+*.out
+*.so
+*.a
+*.lib
+*.dll
+
+# CMake/Make files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+install_manifest.txt
+
+# Ninja files
+.ninja_deps
+.ninja_log
+build.ninja
+
+# compiler and gdb
+*.pdb
+*.ilk
+*.idb
+*.suo
+*.sdf
+*.opensdf
+
+# VS Code files
+.vscode/
+*.code-workspace
+
+# temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# external files
+deps/
+external/
+vendor/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
